@@ -1,0 +1,22 @@
+@author Jacob Oliver
+
+To run TextChecker...
+
+java TextChecker <Dictionary File> <Text File>
+
+
+
+To run EDTest...
+
+java EDTest <File Containing Two Strings>
+
+OR
+
+java EDTest <File Containing One String> <File Containing One String>
+
+
+
+To run EDStudy...
+
+java EDStudy
+
