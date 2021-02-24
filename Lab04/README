@@ -1,0 +1,20 @@
+Jacob Oliver
+CSC 349 Lab 4
+
+Commands to run respective programs after compilation:
+
+
+java HuffmanValidate <filename>
+
+java AdHocValidate <filename>
+
+java RandomText <size of text>
+
+java RandomStudy
+
+java ClassicsStudy
+
+
+Note: HuffmanValidate writes the compressed file to "HuffmanOutput.txt",
+AdHocValidate writes the compressed file to "AdHocOutput.txt"
+and RandomText writes the random text to "RandomText.txt"

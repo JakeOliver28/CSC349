@@ -1,0 +1,35 @@
+@author Gaston Aganza
+@author Jacob Oliver
+
+We implemented Part 3 (Degree Distribution Information) as part of our buildGraphs program.
+
+The algorithm implemented in Part 4 (Word Association Chains) works for both undirected and directed
+graphs.
+
+After compiling the files...
+
+To run both parts 1 & 3 run:
+
+java buildGraphs wordgame_20170721.csv
+
+This creates the directed and undirected graps and outputs them to CSV files.
+
+
+To run part 2 enter:
+
+java Connected <undirected graph file name>
+
+
+To run part 4 enter:
+
+java WordChains wordgame_20170721.csv <file containing vertex pairs>
+
+After the prompt, enter 0 to use an undirected graph or 1 to use a directed graph.
+
+
+To run part 5 enter:
+
+java Bacon wordgame_20170721.csv
+
+Part 5 chooses the 5 vertices (or less than 5 if the graph has less than 5 vertices)
+that have an edge with the highest number of different vertices

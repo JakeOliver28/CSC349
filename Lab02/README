@@ -1,0 +1,36 @@
+@author Gaston Aganza
+@author Jacob Oliver
+
+Lab 2 -- Finding the Median
+
+Our implementation of finding the median was written in Java. In this lab we implemented 5 different algorithms that each find the median of a given arrary.
+The "sort based" algorithm is simply sorting the array with a quick sort, then returning the middle element. The "randomized pivot" is a modification of the 
+quick sort algorithm in which, instead of using the middle value as a pivot, the pivot is chosen in 0(1) time as a random index within the array boundaries. 
+The last three algorithms partition the array in 3/5/7 parts respectively, then sort/find the medians of each partition, then find the median of an array generated
+from the medians. This median of medians is then used as a pivot. 
+
+The testDriver has code that gives the user an option to run with a test file, or to run in a stand alone environment. With a test file (assuming it is
+following the specifications assigned to use), the user will use the following command:
+
+java testDriver <testFile> 
+
+The testDriver will parse through each of the sizes, and run them each according to the user specified test file. The outout will appear in two forms; 
+the first output that a user will notice will appear in the terminal this will provide the average time it took to run each algorithm, and the standard deviation of 
+the algorithms, the second output will appear in a txt file that is labeled "test" + a time stamp. 
+
+If the user chooses to not use a test file, they will run the test harness with the following command:
+
+java testDriver
+
+The testDriver will then generate an array of a random number between 1 & 150; then it will prompt the user for input:
+
+      "What would you like to do with the array?"
+      "(1) Get the median of an array using a single algorithm"
+      "(2) Runtime experiment"
+      "(3) Generate another array"
+      "(4) Exit"
+
+The user will then be able to test a single algorithm (1), run a "Runtime experiment", which is similar to testing with a file, but this will ask for the input
+directly from the user, generate another random array, or exit.
+
+
